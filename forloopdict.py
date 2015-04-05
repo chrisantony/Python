@@ -15,4 +15,11 @@ for actor, character in actors.iteritems():
     print 'name of the actor is {0} and the character played is {1}'.format(actor, character)
     
     
-    
+for n in range(1, 100):
+    if n % 3 == 0:
+        print (n)
+
+countries = ["Italy", "Germany", "Spain", "USA", "Switzerland"]
+dishes = ["pizza", "sauerkraut", "paella", "Hamburger"]
+country_specialities = zip(countries,dishes)
+print country_specialities
